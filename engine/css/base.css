@@ -68,6 +68,8 @@ ul#taskList{
   margin: 0;
   font-size: 12px;
   letter-spacing: 1px;
+}
+.task p:first-letter{
   text-transform: capitalize;
 }
 .task.completed{
