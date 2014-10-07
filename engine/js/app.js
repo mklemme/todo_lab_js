@@ -68,10 +68,10 @@ var start = function(){
 
         // var removeButton = document.createElement("span");
         // removeButton.className += "remove";
-
+        li.appendChild(text);
         li.appendChild(deleteButton);
         li.appendChild(completeButton);
-        li.appendChild(text);
+
 
         //li.appendChild(removeButton);
 

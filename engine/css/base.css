@@ -85,13 +85,13 @@ ul#movieList{
   margin-right: 10px;
   border-radius: 2px;
   cursor: pointer;
-}
-.delete{
-  background: #C36363;
-}
-.complete{
-  background: #7DB07C;
+  background: #333;
+  float: right;
+  margin: -3px -5px 0 15px;
   transition: all .2s;
+}
+.task:hover .button{
+  margin:-3px -5px 0 20px;
 }
 .undo{
   background: #B6B6B6;
@@ -106,7 +106,23 @@ ul#movieList{
   margin-left: 8px;
   display: none;
 }
-.button:hover:after{
+.task:hover .delete{
+  background: #C36363;
+}
+.task:hover .delete:hover{
+  background: #A65353;
+}
+.task:hover .complete{
+  background: #7DB07C;
+
+}
+.task:hover .complete:hover{
+  background: #6C9D6B;
+}
+.task:hover .undo:hover{
+  background:#A6A6A6;
+}
+.task:hover .button:after{
   visibility: visible;
   width: auto;
   display: inline-block;
