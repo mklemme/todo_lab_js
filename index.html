@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+  <script src="sweet-alert.js"></script>
+  <link rel="stylesheet" type="text/css" href="sweet-alert.css">
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="engine/css/base.css">
+
+  <script src="engine/js/app.js"></script>
+
+</head>
+<body>
+<div class="pure-g">
+  <div class="pure-u-1">
+    <form id="movieForm" class="pure-form pure-form-stacked">
+      <p>
+        <label for="title" class="formTitle">Title</label>
+        <input type="text" id="title todoInput" name="title" placeholder="I need to:" autofocus>
+      </p>
+      <!-- <p>
+        <input type="submit" value="Create">
+      </p> -->
+    </form>
+    <ul id="movieList">
+    <li class="task" id="movieNothing">What do you need to do?</li>
+    </ul>
+  </div>
+  <div class="sweet-overlay"></div>
+
+
+<!-- SweetAlert box -->
+<div class="sweet-alert">
+
+  <div class="icon error">
+    <span class="x-mark">
+      <span class="line left"></span>
+      <span class="line right"></span>
+    </span>
+  </div>
+
+  <div class="icon warning">
+    <span class="body"></span>
+    <span class="dot"></span>
+  </div>
+
+  <div class="icon info"></div>
+
+  <div class="icon success">
+    <span class="line tip"></span>
+    <span class="line long"></span>
+    <div class="placeholder"></div>
+    <div class="fix"></div>
+  </div>
+
+  <div class="icon custom"></div>
+
+
+  <h2>Title</h2>
+  <p>Text</p>
+  <button class="cancel">Cancel</button>
+  <button class="confirm">OK</button>
+</div>
+</div>
+<script>
+
+</script>
+    <script>start();</script>
+</body>
+</html>
