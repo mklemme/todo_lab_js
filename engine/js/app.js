@@ -1,9 +1,9 @@
 var start = function(){
 
-    var form = document.getElementById("movieForm");
+    var form = document.getElementById("taskForm");
     var todoInput = document.getElementById("todoInput");
-    var list = document.getElementById("movieList");
-    var movieNothing = document.getElementById("movieNothing");
+    var list = document.getElementById("taskList");
+    var taskNothing = document.getElementById("taskNothing");
     var deleteButtons = document.getElementsByClassName("delete");
     var completedButtons = document.getElementsByClassName("complete");
     var undoButton = document.getElementsByClassName("undo");
@@ -25,7 +25,7 @@ var start = function(){
         // Prevent the data from being sent to the server.
         // Also prevents the page from being refreshed.
         event.preventDefault();
-        movieNothing.remove("");
+        taskNothing.remove("");
 
         // this.title and this.good are available because of the
         // name="title" and name="good" attributes in index.html

@@ -12,7 +12,7 @@ body{
 
   border-radius: 4px;
 }
-ul#movieList{
+ul#taskList{
   margin:0;
   padding: 0;
 }
@@ -55,7 +55,7 @@ ul#movieList{
   border-radius: 4px;
   transition: all .2s;
 }
-#movieNothing{
+#taskNothing{
   background: #485E86;
   color: white;
   font-size: 12px;
