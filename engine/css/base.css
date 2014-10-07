@@ -61,6 +61,7 @@ ul#movieList{
   font-size: 12px;
   margin: -15px 0 0 0;
   z-index: -1;
+  padding: 22px 20px 20px 20px;
 }
 .task p{
   display: inline-block;
